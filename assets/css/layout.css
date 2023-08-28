@@ -1,0 +1,495 @@
+body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/*  로그인 페이지 */
+
+#login_wrap {
+    width: 100%;
+    height: 100%;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#login_container {
+    width: 780px;
+    height: 581px;
+    background: url('../images/images/login_background.png') no-repeat 126% 0;
+    border-radius: 30px;
+    display: flex;
+    overflow: hidden;
+}
+
+#login_box {
+    width: 50%;
+    height: 100%;
+    margin-left: auto;
+    background: #fff;
+    padding: 0 29px 0 43px;;
+}
+
+.login_text {
+    margin-top: 66px;
+}
+
+.login_text .login_title {
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    color: #000;
+    text-align: center;
+}
+
+.login_text .login_subtitle {
+    margin-top: 10px;
+    color: #252733;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+.login_text .login_content {
+    margin-top: 13px;
+    color: #9FA2B4;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.login_form {
+    margin-top: 50px;
+}
+
+.login_form .login_form_label {
+    margin-top: 24px;
+    color: #101010;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.input_box {
+    margin-top: 7px;
+}
+
+.c_btn {
+    background: #000;
+    margin-top: 24px;
+}
+
+.login_footer {
+    margin-top: 33px;
+}
+
+.login_footer > p:first-child {
+    color: #9FA2B4;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.login_footer > p:last-child {
+    margin-top: 4px;
+    color: #101010;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+/* admin */
+#admin_wrap {
+    width: 100%;
+    height: 100%;
+    background: #101010;
+}
+
+#admin_wrap::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#admin_menu {
+    width: 276px;
+    float: left;
+}
+
+#admin_info_content {
+    margin: 30px 0 0 24px;
+}
+
+#admin_info_content::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.admin_image_line {
+    position: relative;
+    background-color: #000;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    float: left;
+}
+
+.admin_image {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+} 
+
+.admin_image img {
+    width: 100%;
+}
+
+.admin_info {
+    float: left;
+    padding: 11px;
+}
+
+.admin_info > p:first-child {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.admin_info > p:last-child {
+    margin-top: 5px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px;
+}
+
+.admin_nav {
+    margin-top: 33px;
+    margin-left: 20px;
+}
+
+.admin_nav > p {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.admin_nav ul li {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+    padding: 17px 0;
+    position: relative;
+    cursor: pointer;
+}
+
+.admin_nav ul li.on {
+    color: #5F66E9;
+}
+
+.admin_nav ul li.on::before {
+    content: '';
+    display: block;
+    position: absolute;
+    background: url('../images/icon/menu_on_background.svg');
+    width: 270px;
+    height: 89px;
+    top: -18px;
+    left: -12px;
+    z-index: 0;
+}
+
+.admin_nav ul li::after {
+    content: '';
+    display: block;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    top: 17px;
+    left: 0;
+}
+
+.admin_nav ul li.nav_list1::after {
+    background: url('../images/icon/admin_manu1.svg') no-repeat;
+    background-size: contain;
+}
+
+.admin_nav ul li.nav_list2::after {
+    background: url('../images/icon/admin_manu2.svg') no-repeat;
+    background-size: contain;
+}
+
+.admin_nav ul li.nav_list3::after {
+    background: url('../images/icon/admin_manu3.svg') no-repeat;
+    background-size: contain;
+}
+
+.admin_nav ul li.nav_list4::after {
+    background: url('../images/icon/admin_manu4.svg') no-repeat;
+    background-size: contain;
+}
+
+.admin_nav ul li.nav_list5::after {
+    background: url('../images/icon/admin_manu5.svg') no-repeat;
+    background-size: contain;
+}
+
+.admin_nav ul li.nav_list6::after {
+    background: url('../images/icon/admin_manu6.svg') no-repeat;
+    background-size: contain;
+}
+
+.admin_nav ul li span {
+    padding-left: 32px;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+#admin_container {
+    float: left;
+    width: calc(100% - 298px);
+    height: calc(100% - 44px);
+    margin: 22px 22px 22px 0;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 24px 47px;
+}
+
+.admin_container_menu::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.admin_cont_menu_left {
+    float: left;
+}
+
+.admin_cont_menu_left span:first-child {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+.admin_cont_menu_left span:last-child {
+    display: inline-block;
+    color: var(--basic-700, #2E3A59);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-left: 24px;
+}
+
+.admin_cont_menu_right {
+    float: right;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin_cont_menu_right .alram_text {
+    display: inline-block;
+    color: var(--text-color-accent-link, #36F);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.admin_cont_menu_right .alram_img {
+    margin-left: 7px;
+}
+
+.admin_cont_menu_right .logout {
+    margin-left: 14px;
+}
+
+.admin_cont_menu_right .alram_text b {
+    font-weight: 400;
+    color: var(--basic-700, #2E3A59);
+}
+
+.admin_contents {
+    padding: 19px 0 0 0;
+    width: 100%;
+    height: calc(100% - 40px);
+    border-top: 1px solid #F7F9FC;
+    margin-top: 23px;
+    overflow: hidden;
+}
+
+.admin_contents > div {
+    height: 100%;
+}
+
+.admin_contents_nav {
+    position: absolute;
+    width: 6px;
+    height: 252px;
+    right: 40px;
+    top: 50%;
+    margin-top: -126px;
+}
+
+.admin_contents_nav > div {
+    width: 6px;
+    height: 80px;
+    border-radius: 4px;
+    background: rgba(16, 16, 16, 0.30);
+    cursor: pointer;
+}
+
+.admin_contents_nav > div + div {
+    margin-top: 6px;
+}
+
+.admin_contents_nav > div.on {
+    background: #101010;
+}
+
+#admin_room, #admin_screen, #admin_etc {
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: row;
+    align-content: flex-start;
+} 
+
+.room, .screen, .etc {
+    display: flex;
+    width: 160px;
+    height: 160px;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    border: 1px solid var(--gray-300, #D0D5DD);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.room_title, .screen_title {
+    display: flex;
+    width: 160px;
+    height: 100px;
+    padding: 10px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border: 1px solid #D0D5DD;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.room_sub, .screen_sub {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.room_option, .screen_option {
+    display: flex;
+    width: 79px;
+    height: 30px;
+    padding: 10px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4px;
+    flex-shrink: 0;
+    font-family: Inter;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.etc_title {
+    display: flex;
+    width: 160px;
+    height: 160px;
+    padding: 10px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border: 1px solid #D0D5DD;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.room.on .room_title, .screen.on .screen_title, .etc.on .etc_title {
+    background: #735BF2;
+}
+
+.room.on .room_option, .screen.on .screen_option {
+    color: #1B21D3;
+}
+
+.room.off .room_title, .screen.off .screen_title, .etc.off .etc_title {
+    background: #8388A2;
+}
+
+.room.off .room_option, .screen.off .screen_option {
+    color: #505470;
+}
+
+
+
+@media screen and (max-width: 1023px){
+	
+}

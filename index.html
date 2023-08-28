@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <link href="./assets/css/reset.css" rel="stylesheet">
+        <link href="./assets/css/common.css" rel="stylesheet">
+        <link href="./assets/css/layout.css" rel="stylesheet">
+        <script src="./assets/js/jquery-2.2.4.min.js"></script>
+        <script src="./assets/js/common.js"></script>
+    </head>
+    <body>
+        <div id="login_wrap">
+            <div id="login_container">
+                <div id="login_box">
+                    <div class="login_text">
+                        <p class="login_title">Golf Always</p>
+                        <p class="login_subtitle">관리자 페이지 로그인</p>
+                        <p class="login_content">관리자 대표 전화번호와 비밀번호를 입력하세요.</p>
+                    </div>
+                    <div class="login_form">
+                        <p class="login_form_label">PHONE NUMBER</p>
+                        <div class="input_box">
+                            <label for="input_id">대표 전화번호</label>
+                            <input type="text" id="input_id" class="input_txt">
+                        </div>
+                        <p class="login_form_label">PASSWORD</p>
+                        <div class="input_box">
+                            <label for="input_pw">비밀번호</label>
+                            <input type="text" id="input_pw" class="input_txt">
+                            <div class="sh_pw show_pw" onclick="sh_pw(this)"><img src="./assets/images/icon/pw_hide.svg"></div>
+                            <div class="sh_pw hide_pw" onclick="sh_pw(this)"><img src="./assets/images/icon/pw_show.svg"></div>
+                        </div>
+                        <button class="c_btn">Log In</button>
+                    </div>
+                    <div class="login_footer">
+                        <p>로그인이 안 될 경우 아래 번호로 문의 주세요</p>
+                        <p>1566-1234</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

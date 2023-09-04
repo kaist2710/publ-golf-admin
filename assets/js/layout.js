@@ -55,6 +55,16 @@ $(function(){
             $(this).addClass('on');
         }
     })
+
+    $('.add_admin > button').click(function(){
+        $('.popup').css('display', 'flex');
+    })
+
+    $('.popup').click(function(e){
+        if (e.target !== e.currentTarget) return;
+        $('.popup').css('display', 'none');
+        
+    });
 });
 
 function movePowerScroll(wp){

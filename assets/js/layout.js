@@ -38,6 +38,23 @@ $(function(){
     $('.etc').click(function(){
         controlPower(this) 
     })
+
+    $('.tab_place_btn ul li').click(function(){
+        var index = $(this).index();
+        $('.tab_place_btn ul li').removeClass('on');
+        $(this).addClass('on');
+
+        $('.place_list').removeClass('on');
+        $('.place_list').eq(index).addClass('on')
+    })
+
+    $('.pagenation ul li').click(function(){
+        var id_name = $(this).attr('id');
+        if(id_name != 'page_prev' && id_name != 'page_next'){
+            $('.pagenation ul li').removeClass('on');
+            $(this).addClass('on');
+        }
+    })
 });
 
 function movePowerScroll(wp){

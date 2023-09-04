@@ -1,9 +1,9 @@
 $(function(){
     // input placeholder show/hide
-    $('input').focus(function(){
+    $('input.input_login').focus(function(){
         $(this).prev().hide();
     });
-    $('input').focusout(function(){
+    $('input.input_login').focusout(function(){
         if($(this).val() == null || $(this).val() == ""){
             $(this).prev().show();
         }
@@ -23,11 +23,11 @@ function sh_pw(el){
     if(name.indexOf('show_pw') > -1){
         $('.hide_pw').show();
         $(el).hide();
-        $(el).siblings('input').css('-webkit-text-security', 'none');
+        $(el).siblings('input.input_login').css('-webkit-text-security', 'none');
     } else if(name.indexOf('hide_pw') > -1) {
         $('.show_pw').show();
         $(el).hide();
-        $(el).siblings('input').css('-webkit-text-security', 'disc');
+        $(el).siblings('input.input_login').css('-webkit-text-security', 'disc');
     }
 }
 

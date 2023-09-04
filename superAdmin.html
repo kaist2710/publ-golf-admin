@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <link href="./assets/css/reset.css" rel="stylesheet">
+        <link href="./assets/css/common.css" rel="stylesheet">
+        <link href="./assets/css/layout.css" rel="stylesheet">
+        <link href="./assets/css/font.css" rel="stylesheet">
+        <script src="./assets/js/jquery-2.2.4.min.js"></script>
+        <script src="./assets/js/common.js"></script>
+        <script src="./assets/js/layout.js"></script>
+    </head>
+    <body>
+        <div id="admin_wrap">
+            <div id="admin_menu">
+                <div id="admin_info_content">
+                    <div class="admin_image_line">
+                        <div class="admin_image">
+                            <img src="./assets/images/images/face3.jpg" alt="관리자 이미지" />
+                        </div>
+                    </div>
+                    <div class="admin_info">
+                        <p>길진생 골프 영광점</p>
+                        <p>02-1234-5678</p>
+                    </div>
+                </div>
+                <div class="admin_nav">
+                    <p>MAIN MENU</p>
+                    <ul>
+                        <li class="admin_nav_list nav_list1 on">
+                            <span>업체관리</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="admin_container">
+                <div class="admin_container_menu">
+                    <div class="admin_cont_menu_left">
+                        <span class="arcodian_btn"><img src="./assets/images/icon/menu.svg" alt="매뉴 아코디언 버튼"></span>
+                        <span>업체관리 > POWER</span>
+                    </div>
+                    <div  class="admin_cont_menu_right">
+                        <span class="logout"><img src="./assets/images/icon/logout.svg" alt="로그아웃"></span>
+                    </div>
+                </div>
+                <div class="super_admin_contents">
+                    <div class="superadmin_top clear_both">
+                        <div class="add_admin"><button>업체 추가</button></div>
+                        <div class="search_admin">
+                            <input type="text" id="search_text" placeholder="업체 검색" />
+                            <img src="./assets/images/icon/search-normal.svg" alt="검색아이콘" />
+                        </div>
+                    </div>
+                    <div class="tab_place_area">
+                        <div class="place_list on" id="place_room">
+                            <div class="place_list_th sa_main">
+                                <span class="pl_th_no">№</span>
+                                <span class="pl_th_a_name">업체명</span>
+                                <span class="pl_th_a_regist">관리자 페이지 접속</span>
+                                <span class="pl_th_a_room">룸</span>
+                                <span class="pl_th_a_screen">스크린</span>
+                                <span class="pl_th_a_light">조명</span>
+                                <span class="pl_th_a_aircon">에어컨</span>
+                                <span class="pl_th_a_power">전원</span>
+                                <span class="pl_th_a_regist_day">가입일</span>
+                                <span class="pl_th_edit"></span>
+                            </div>
+                            <div class="place_list_td sa_main">
+                                <ul>
+                                    <li>
+                                        <span class="pl_td_no">№</span>
+                                        <span class="pl_td_a_name">유나골프 현풍점</span>
+                                        <span class="pl_td_a_regist"><button>관리자 페이지 접속</button></span>
+                                        <span class="pl_td_a_room">5</span>
+                                        <span class="pl_td_a_screen">5</span>
+                                        <span class="pl_td_a_light">5</span>
+                                        <span class="pl_td_a_aircon">5</span>
+                                        <span class="pl_td_a_power">5</span>
+                                        <span class="pl_td_a_regist_day">2023.04.05</span>
+                                        <span class="pl_td_edit">
+                                            <button><img src="./assets/images/icon/edit.svg" alt="관리자 수정"></button>
+                                            <button><img src="./assets/images/icon/delete.svg" alt="관리자 삭제"></button>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="pl_td_no">№</span>
+                                        <span class="pl_td_a_name">유나골프 현풍점</span>
+                                        <span class="pl_td_a_regist"><button>관리자 페이지 접속</button></span>
+                                        <span class="pl_td_a_room">5</span>
+                                        <span class="pl_td_a_screen">5</span>
+                                        <span class="pl_td_a_light">5</span>
+                                        <span class="pl_td_a_aircon">5</span>
+                                        <span class="pl_td_a_power">5</span>
+                                        <span class="pl_td_a_regist_day">2023.04.05</span>
+                                        <span class="pl_td_edit">
+                                            <button><img src="./assets/images/icon/edit.svg" alt="관리자 수정"></button>
+                                            <button><img src="./assets/images/icon/delete.svg" alt="관리자 삭제"></button>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="pl_td_no">№</span>
+                                        <span class="pl_td_a_name">유나골프 현풍점</span>
+                                        <span class="pl_td_a_regist"><button>관리자 페이지 접속</button></span>
+                                        <span class="pl_td_a_room">5</span>
+                                        <span class="pl_td_a_screen">5</span>
+                                        <span class="pl_td_a_light">5</span>
+                                        <span class="pl_td_a_aircon">5</span>
+                                        <span class="pl_td_a_power">5</span>
+                                        <span class="pl_td_a_regist_day">2023.04.05</span>
+                                        <span class="pl_td_edit">
+                                            <button><img src="./assets/images/icon/edit.svg" alt="관리자 수정"></button>
+                                            <button><img src="./assets/images/icon/delete.svg" alt="관리자 삭제"></button>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="pl_td_no">№</span>
+                                        <span class="pl_td_a_name">유나골프 현풍점</span>
+                                        <span class="pl_td_a_regist"><button>관리자 페이지 접속</button></span>
+                                        <span class="pl_td_a_room">5</span>
+                                        <span class="pl_td_a_screen">5</span>
+                                        <span class="pl_td_a_light">5</span>
+                                        <span class="pl_td_a_aircon">5</span>
+                                        <span class="pl_td_a_power">5</span>
+                                        <span class="pl_td_a_regist_day">2023.04.05</span>
+                                        <span class="pl_td_edit">
+                                            <button><img src="./assets/images/icon/edit.svg" alt="관리자 수정"></button>
+                                            <button><img src="./assets/images/icon/delete.svg" alt="관리자 삭제"></button>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="pl_td_no">№</span>
+                                        <span class="pl_td_a_name">유나골프 현풍점</span>
+                                        <span class="pl_td_a_regist"><button>관리자 페이지 접속</button></span>
+                                        <span class="pl_td_a_room">5</span>
+                                        <span class="pl_td_a_screen">5</span>
+                                        <span class="pl_td_a_light">5</span>
+                                        <span class="pl_td_a_aircon">5</span>
+                                        <span class="pl_td_a_power">5</span>
+                                        <span class="pl_td_a_regist_day">2023.04.05</span>
+                                        <span class="pl_td_edit">
+                                            <button><img src="./assets/images/icon/edit.svg" alt="관리자 수정"></button>
+                                            <button><img src="./assets/images/icon/delete.svg" alt="관리자 삭제"></button>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="pl_td_no">№</span>
+                                        <span class="pl_td_a_name">유나골프 현풍점</span>
+                                        <span class="pl_td_a_regist"><button>관리자 페이지 접속</button></span>
+                                        <span class="pl_td_a_room">5</span>
+                                        <span class="pl_td_a_screen">5</span>
+                                        <span class="pl_td_a_light">5</span>
+                                        <span class="pl_td_a_aircon">5</span>
+                                        <span class="pl_td_a_power">5</span>
+                                        <span class="pl_td_a_regist_day">2023.04.05</span>
+                                        <span class="pl_td_edit">
+                                            <button><img src="./assets/images/icon/edit.svg" alt="관리자 수정"></button>
+                                            <button><img src="./assets/images/icon/delete.svg" alt="관리자 삭제"></button>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="place_list_footer">
+                                <p class="place_list_num">전체 업체 수: 18개</p>
+                                <div class="place_list_pagenation pagenation">
+                                    <ul>
+                                        <li id="page_prev"><img src="./assets/images/icon/page_prev_disable.svg" alt="prev_page"></li>
+                                        <li id="1" class="on">1</li>
+                                        <li id="2">2</li>
+                                        <li id="page_next"><img src="./assets/images/icon/page_next.svg" alt="next_page"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -669,19 +669,19 @@ body {
     width: 5%;
 }
 
-.place_list_th .pl_th_name,
-.place_list_td .pl_td_name {
+.place_list_th .pl_th_room_name,
+.place_list_td .pl_td_room_name {
     width: 12%;
 }
 
-.place_list_th .pl_th_main_power,
-.place_list_th .pl_th_room_light,
+.place_list_th .pl_th_device_name,
+.place_list_th .pl_th_device_status,
 .place_list_th .pl_th_ir,
-.place_list_th .pl_th_switch,
-.place_list_td .pl_td_main_power,
-.place_list_td .pl_td_room_light,
+.place_list_th .pl_th_device_online,
+.place_list_td .pl_td_device_name,
+.place_list_td .pl_td_device_status,
 .place_list_td .pl_td_ir,
-.place_list_td .pl_td_switch {
+.place_list_td .pl_td_device_online {
     width: 19%;
 }
 

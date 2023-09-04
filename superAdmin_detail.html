@@ -46,7 +46,7 @@
                     </div>
                 </div>
                 <div class="super_admin_contents">
-                    <div class="detail_admin">
+                    <!-- <div class="detail_admin">
                         <div class="detail_admin_name">
                             <label for="da_name">업체명</label>
                             <input type="text" id="da_name" />
@@ -59,7 +59,7 @@
                             <label for="da_address">전화번호</label>
                             <input type="text" id="da_address" />
                         </div>
-                    </div>
+                    </div> -->
                     <div class="tab_place_btn">
                         <ul>
                             <li class="place_room_btn on">ROOM</li>
@@ -71,76 +71,76 @@
                         <div class="place_list on" id="place_room">
                             <div class="place_list_th">
                                 <span class="pl_th_no">№</span>
-                                <span class="pl_th_name">장치이름</span>
-                                <span class="pl_th_main_power">차단기1: 메인전원(타석조명,팬 등)</span>
-                                <span class="pl_th_room_light">차단기2:룸조명</span>
-                                <span class="pl_th_ir">IR: 빔프로젝트, 룸에어컨</span>
-                                <span class="pl_th_switch">스위치:시뮬레이션</span>
-                                <span class="pl_th_apply">적용</span>
+                                <span class="pl_th_room_name">룸이름</span>
+                                <span class="pl_th_device_name">기기명</span>
+                                <span class="pl_th_ir"></span>
+                                <span class="pl_th_device_status">기기상태</span>
+                                <span class="pl_th_device_online">회선상태</span>
+                                <span class="pl_th_apply">수정</span>
                             </div>
                             <div class="place_list_td">
                                 <ul>
                                     <li>
                                         <span class="pl_td_no">1</span>
-                                        <span class="pl_td_name">
-                                            <input type="text" id="room_devide_name1" />
+                                        <span class="pl_td_room_name">
+                                            룸이름1
                                         </span>
-                                        <span class="pl_td_main_power">
-                                            <input type="text" id="room_devide_power1" />
-                                        </span>
-                                        <span class="pl_td_room_light">
-                                            <input type="text" id="room_devide_light1" />
+                                        <span class="pl_td_device_name">
+                                            장치명
                                         </span>
                                         <span class="pl_td_ir">
-                                            <input type="text" id="room_devide_ir1" />
+                                            
                                         </span>
-                                        <span class="pl_td_switch">
-                                            <input type="text" id="room_devide_switch1" />
+                                        <span class="pl_td_device_status">
+                                            On
+                                        </span>
+                                        <span class="pl_td_device_online">
+                                            Online
                                         </span>
                                         <span class="pl_td_apply">
-                                            <strong>적용</strong>
+                                            <strong>수정</strong>
                                         </span>
                                     </li>
                                     <li>
                                         <span class="pl_td_no">1</span>
-                                        <span class="pl_td_name">
-                                            <input type="text" id="room_devide_name2" />
+                                        <span class="pl_td_room_name">
+                                            룸이름1
                                         </span>
-                                        <span class="pl_td_main_power">
-                                            <input type="text" id="room_devide_power2" />
-                                        </span>
-                                        <span class="pl_td_room_light">
-                                            <input type="text" id="room_devide_light2" />
+                                        <span class="pl_td_device_name">
+                                            장치명
                                         </span>
                                         <span class="pl_td_ir">
-                                            <input type="text" id="room_devide_ir2" />
+                                            
                                         </span>
-                                        <span class="pl_td_switch">
-                                            <input type="text" id="room_devide_switch2" />
+                                        <span class="pl_td_device_status">
+                                            On
+                                        </span>
+                                        <span class="pl_td_device_online">
+                                            Online
                                         </span>
                                         <span class="pl_td_apply">
-                                            <strong>적용</strong>
+                                            <strong>수정</strong>
                                         </span>
                                     </li>
                                     <li>
                                         <span class="pl_td_no">1</span>
-                                        <span class="pl_td_name">
-                                            <input type="text" id="room_devide_name3" />
+                                        <span class="pl_td_room_name">
+                                            룸이름1
                                         </span>
-                                        <span class="pl_td_main_power">
-                                            <input type="text" id="room_devide_power3" />
-                                        </span>
-                                        <span class="pl_td_room_light">
-                                            <input type="text" id="room_devide_light3" />
+                                        <span class="pl_td_device_name">
+                                            장치명
                                         </span>
                                         <span class="pl_td_ir">
-                                            <input type="text" id="room_devide_ir3" />
+                                            
                                         </span>
-                                        <span class="pl_td_switch">
-                                            <input type="text" id="room_devide_switch3" />
+                                        <span class="pl_td_device_status">
+                                            On
+                                        </span>
+                                        <span class="pl_td_device_online">
+                                            Online
                                         </span>
                                         <span class="pl_td_apply">
-                                            <strong>적용</strong>
+                                            <strong>수정</strong>
                                         </span>
                                     </li>
                                 </ul>
@@ -160,76 +160,76 @@
                         <div class="place_list" id="place_screen">
                             <div class="place_list_th">
                                 <span class="pl_th_no">№</span>
-                                <span class="pl_th_name">장치이름</span>
-                                <span class="pl_th_main_power">차단기1: 메인전원(타석조명,팬 등)</span>
-                                <span class="pl_th_room_light">차단기2:기타전원</span>
-                                <span class="pl_th_ir">IR: 빔프로젝트</span>
-                                <span class="pl_th_switch">스위치:시뮬레이션</span>
-                                <span class="pl_th_apply">적용</span>
+                                <span class="pl_th_room_name">스크린이름</span>
+                                <span class="pl_th_device_name">기기명</span>
+                                <span class="pl_th_ir"></span>
+                                <span class="pl_th_device_status">기기상태</span>
+                                <span class="pl_th_device_online">회선상태</span>
+                                <span class="pl_th_apply">수정</span>
                             </div>
                             <div class="place_list_td">
                                 <ul>
                                     <li>
                                         <span class="pl_td_no">1</span>
-                                        <span class="pl_td_name">
-                                            <input type="text" id="screen_devide_name1" />
+                                        <span class="pl_td_room_name">
+                                            스크린이름1
                                         </span>
-                                        <span class="pl_td_main_power">
-                                            <input type="text" id="screen_devide_power1" />
-                                        </span>
-                                        <span class="pl_td_room_light">
-                                            <input type="text" id="screen_devide_etc_power1" />
+                                        <span class="pl_td_device_name">
+                                            장치명
                                         </span>
                                         <span class="pl_td_ir">
-                                            <input type="text" id="screen_devide_ir1" />
+                                            
                                         </span>
-                                        <span class="pl_td_switch">
-                                            <input type="text" id="screen_devide_switch1" />
+                                        <span class="pl_td_device_status">
+                                            On
+                                        </span>
+                                        <span class="pl_td_device_online">
+                                            Online
                                         </span>
                                         <span class="pl_td_apply">
-                                            <strong>적용</strong>
+                                            <strong>수정</strong>
                                         </span>
                                     </li>
                                     <li>
                                         <span class="pl_td_no">1</span>
-                                        <span class="pl_td_name">
-                                            <input type="text" id="screen_devide_name2" />
+                                        <span class="pl_td_room_name">
+                                            스크린이름1
                                         </span>
-                                        <span class="pl_td_main_power">
-                                            <input type="text" id="screen_devide_power2" />
-                                        </span>
-                                        <span class="pl_td_room_light">
-                                            <input type="text" id="screen_devide_etc_power2" />
+                                        <span class="pl_td_device_name">
+                                            장치명
                                         </span>
                                         <span class="pl_td_ir">
-                                            <input type="text" id="screen_devide_ir2" />
+                                            
                                         </span>
-                                        <span class="pl_td_switch">
-                                            <input type="text" id="screen_devide_switch2" />
+                                        <span class="pl_td_device_status">
+                                            On
+                                        </span>
+                                        <span class="pl_td_device_online">
+                                            Online
                                         </span>
                                         <span class="pl_td_apply">
-                                            <strong>적용</strong>
+                                            <strong>수정</strong>
                                         </span>
                                     </li>
                                     <li>
                                         <span class="pl_td_no">1</span>
-                                        <span class="pl_td_name">
-                                            <input type="text" id="screen_devide_name3" />
+                                        <span class="pl_td_room_name">
+                                            스크린이름1
                                         </span>
-                                        <span class="pl_td_main_power">
-                                            <input type="text" id="screen_devide_power3" />
-                                        </span>
-                                        <span class="pl_td_room_light">
-                                            <input type="text" id="screen_devide_etc_powe3" />
+                                        <span class="pl_td_device_name">
+                                            장치명
                                         </span>
                                         <span class="pl_td_ir">
-                                            <input type="text" id="screen_devide_ir3" />
+                                            
                                         </span>
-                                        <span class="pl_td_switch">
-                                            <input type="text" id="screen_devide_switch3" />
+                                        <span class="pl_td_device_status">
+                                            On
+                                        </span>
+                                        <span class="pl_td_device_online">
+                                            Online
                                         </span>
                                         <span class="pl_td_apply">
-                                            <strong>적용</strong>
+                                            <strong>수정</strong>
                                         </span>
                                     </li>
                                 </ul>
@@ -249,56 +249,76 @@
                         <div class="place_list" id="place_power">
                             <div class="place_list_th">
                                 <span class="pl_th_no">№</span>
-                                <span class="pl_th_name">장치이름</span>
-                                <span class="pl_th_main_power">장치 종류</span>
-                                <span class="pl_th_room_light">장치 정보</span>
-                                <span class="pl_th_apply">적용</span>
+                                <span class="pl_th_room_name">장치이름</span>
+                                <span class="pl_th_device_status">장치종류</span>
+                                <span class="pl_th_ir"></span>
+                                <span class="pl_th_device_status">기기상태</span>
+                                <span class="pl_th_device_online">회선상태</span>
+                                <span class="pl_th_apply">수정</span>
                             </div>
                             <div class="place_list_td">
                                 <ul>
                                     <li>
                                         <span class="pl_td_no">1</span>
-                                        <span class="pl_td_name">
-                                            <input type="text" id="etc_devide_name1" />
+                                        <span class="pl_td_room_name">
+                                            장치이름1
                                         </span>
-                                        <span class="pl_td_main_power">
-                                            <input type="text" id="etc_devide_power1" />
+                                        <span class="pl_td_device_status">
+                                            장치종류
                                         </span>
-                                        <span class="pl_td_room_light">
-                                            <input type="text" id="etc_devide_etc_power1" />
+                                        <span class="pl_td_ir">
+                                            
+                                        </span>
+                                        <span class="pl_td_device_status">
+                                            On
+                                        </span>
+                                        <span class="pl_td_device_online">
+                                            Online
                                         </span>
                                         <span class="pl_td_apply">
-                                            <strong>적용</strong>
+                                            <strong>수정</strong>
                                         </span>
                                     </li>
                                     <li>
                                         <span class="pl_td_no">1</span>
-                                        <span class="pl_td_name">
-                                            <input type="text" id="etc_devide_name2" />
+                                        <span class="pl_td_room_name">
+                                            장치이름1
                                         </span>
-                                        <span class="pl_td_main_power">
-                                            <input type="text" id="etc_devide_power2" />
+                                        <span class="pl_td_device_status">
+                                            장치종류
                                         </span>
-                                        <span class="pl_td_room_light">
-                                            <input type="text" id="etc_devide_etc_power2" />
+                                        <span class="pl_td_ir">
+                                            
+                                        </span>
+                                        <span class="pl_td_device_status">
+                                            On
+                                        </span>
+                                        <span class="pl_td_device_online">
+                                            Online
                                         </span>
                                         <span class="pl_td_apply">
-                                            <strong>적용</strong>
+                                            <strong>수정</strong>
                                         </span>
                                     </li>
                                     <li>
                                         <span class="pl_td_no">1</span>
-                                        <span class="pl_td_name">
-                                            <input type="text" id="etc_devide_name3" />
+                                        <span class="pl_td_room_name">
+                                            장치이름1
                                         </span>
-                                        <span class="pl_td_main_power">
-                                            <input type="text" id="etc_devide_power3" />
+                                        <span class="pl_td_device_status">
+                                            장치종류
                                         </span>
-                                        <span class="pl_td_room_light">
-                                            <input type="text" id="etc_devide_etc_powe3" />
+                                        <span class="pl_td_ir">
+                                            
+                                        </span>
+                                        <span class="pl_td_device_status">
+                                            On
+                                        </span>
+                                        <span class="pl_td_device_online">
+                                            Online
                                         </span>
                                         <span class="pl_td_apply">
-                                            <strong>적용</strong>
+                                            <strong>수정</strong>
                                         </span>
                                     </li>
                                 </ul>
